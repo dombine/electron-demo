@@ -18,7 +18,7 @@ PLATFORM=$1
 ARCH=$2
 
 # FIXEDME
-APP_NAME='electron-qqsport'
+APP_NAME='electron-baidu-pan'
 
 echo "Start packaging for $PLATFORM $ARCH."
 
@@ -48,16 +48,17 @@ echo "Version=1.0" >> dist/${APP_DIR}/${APP_NAME}.desktop
 echo "Type=Application" >> dist/${APP_DIR}/${APP_NAME}.desktop
 echo "Name=${APP_NAME}" >> dist/${APP_DIR}/${APP_NAME}.desktop
 echo "Comment=${APP_NAME}" >> dist/${APP_DIR}/${APP_NAME}.desktop
-echo "Exec=~/SoftWare/electron/${APP_DIR}/${APP_NAME}" >> dist/${APP_DIR}/${APP_NAME}.desktop
-echo "Icon=~/SoftWare/electron/${APP_DIR}/resources/icon.png" >> dist/${APP_DIR}/${APP_NAME}.desktop
+echo "Exec=/home/ice/SoftWare/electron/${APP_DIR}/${APP_NAME}" >> dist/${APP_DIR}/${APP_NAME}.desktop
+echo "Icon=/home/ice/SoftWare/electron/${APP_DIR}/resources/icon.png" >> dist/${APP_DIR}/${APP_NAME}.desktop
 echo "Categories=Network;Application;" >> dist/${APP_DIR}/${APP_NAME}.desktop
 echo "Terminal=false" >> dist/${APP_DIR}/${APP_NAME}.desktop
 
 chmod +x dist/${APP_DIR}/${APP_NAME}.desktop
 
-cp -r dist/${APP_DIR} ~/SoftWare/electron/
+mkdir -p /home/ice/SoftWare/electron
+cp -r dist/${APP_DIR} /home/ice/SoftWare/electron/
 
-sudo ln -s /home/ice/SoftWare/electron/${APP_DIR}/${APP_NAME}.desktop /usr/share/applications/${APP_NAME}.desktop
+sudo ln -sf /home/ice/SoftWare/electron/${APP_DIR}/${APP_NAME}.desktop /usr/share/applications/${APP_NAME}.desktop
 
 if [[ $? -eq 0 ]]; then
 	echo -e "$(tput setaf 2)Packaging for $PLATFORM $ARCH succeeded.$(tput sgr0)\n"
