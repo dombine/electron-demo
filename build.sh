@@ -31,10 +31,13 @@ elif [ "${appName}" == "demo" ];then
     #map['qqvideo']='https://v.qq.com/'
     #map['youdaonote']='https://note.youdao.com/web/'
     #map['bilibili']='https://www.bilibili.com/'
-    map['baidu-pan']='https://pan.baidu.com/disk/home?#/all?vmode=list&path=%2Fapps'
+    #map['baidu-pan']='https://pan.baidu.com/disk/home?#/all?vmode=list&path=%2Fapps'
     #map['baidu-translate']='https://fanyi.baidu.com/?aldtype=16047#auto/zh'
     #map['music163']='https://music.163.com/'
     #map['calendar']='http://qq.ip138.com/day/'
+    #map['datapps-email']='https://exmail.qq.com/cgi-bin/frame_html?sid=O9Yo7hQOGQfJUXsm,7&r=f82d2ce07519491e5cf7fa54a909de3d'
+    #map['qq-email']='https://mail.qq.com/cgi-bin/frame_html?sid=rvGoNIjdQK2teUYY&r=6718e03bba9dd65a17135bc77affa4cb'
+    #map['163-email']='https://mail.163.com/js6/main.jsp?sid=MCCBpDdumjriNtwDYkuuFuGpFULPluDN&df=mail163_letter#module=welcome.WelcomeModule%7C%7B%7D'
 
     for key in ${!map[@]}
     do

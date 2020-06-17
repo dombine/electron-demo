@@ -9,7 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -48,6 +48,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/build-demo.sh" />
         <option value="$PROJECT_DIR$/scripts/build.sh" />
+        <option value="$APPLICATION_CONFIG_DIR$/webstorm64.vmoptions" />
+        <option value="$PROJECT_DIR$/build.sh" />
       </list>
     </option>
   </component>
@@ -61,9 +63,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1930" />
+    <option name="x" value="646" />
     <option name="y" value="-11" />
-    <option name="width" value="944" />
+    <option name="width" value="628" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -82,6 +84,11 @@
             <path>
               <item name="electron-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="electron-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="electron-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="electron-demo" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -96,7 +103,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561640883644" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Global/chrome" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -139,28 +146,36 @@
       <workItem from="1561543379120" duration="2379000" />
       <workItem from="1561549026333" duration="21794000" />
       <workItem from="1566375118813" duration="139000" />
+      <workItem from="1574834896439" duration="25000" />
+      <workItem from="1574836883768" duration="6000" />
+      <workItem from="1577079055624" duration="19000" />
+      <workItem from="1577091290598" duration="13000" />
+      <workItem from="1588297958218" duration="19000" />
+      <workItem from="1588299127257" duration="488000" />
+      <workItem from="1589611839212" duration="315000" />
+      <workItem from="1589800881171" duration="40000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24312000" />
+    <option name="totallyTimeSpent" value="25237000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1930" y="-11" width="1910" height="1045" extended-state="6" />
+    <frame x="646" y="-11" width="628" height="1057" extended-state="6" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.17525226" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.30679932" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32934782" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.44351465" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.25827107" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Run" order="8" />
@@ -250,20 +265,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/build-all.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/tar-all.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/icon.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -291,13 +292,6 @@
     <entry file="file://$PROJECT_DIR$/dist/electron-youku-linux-x64/electron-youku.desktop" />
     <entry file="file://$PROJECT_DIR$/dist/electron-youku-linux-x64/version" />
     <entry file="file://$PROJECT_DIR$/build-demo.sh" />
-    <entry file="file://$PROJECT_DIR$/scripts/build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="40" column="2" lean-forward="true" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -315,6 +309,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="723">
           <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/webstorm64.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/build-all.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/tar-all.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="2" lean-forward="true" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>

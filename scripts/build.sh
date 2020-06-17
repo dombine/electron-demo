@@ -18,7 +18,7 @@ PLATFORM=$1
 ARCH=$2
 
 # FIXEDME
-APP_NAME='electron-baidu-pan'
+APP_NAME='electron-dingding-talk'
 
 echo "Start packaging for $PLATFORM $ARCH."
 

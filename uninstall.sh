@@ -11,6 +11,6 @@ fi
 for appName in "$@"
 do
     sudo rm -f /usr/share/applications/electron-${appName}*.desktop
-    rm -rf ~/SoftWare/electron/electron-${appName}*
+    rm -rf /home/ice/SoftWare/electron/electron-${appName}*
     rm -rf dist/electron-${appName}*
 done

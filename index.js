@@ -4,8 +4,8 @@ div#layout-container{width:100%;height:100%}
 div#body{height:100%}`;
 
 // FIXEDME
-const staticUrl='https://pan.baidu.com/disk/home?#/all?vmode=list&path=%2Fapps';
-const staticTitle='electron-baidu-pan';
+const staticUrl='https://im.dingtalk.com';
+const staticTitle='electron-dingding-talk';
 
 function getParameterByName(url, name) {
     name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
